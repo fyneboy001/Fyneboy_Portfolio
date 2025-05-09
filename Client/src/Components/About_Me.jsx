@@ -1,12 +1,12 @@
 function About() {
   return (
     <>
-      <section className="flex h-screen text-white bg-gray-950 px-24 pt-24 space-x-20">
-        <div className="bg-red-50 h-56 w-[30%]">
+      <section className="lg:flex lg:h-screen h-[160vh] text-white bg-gray-950 lg:px-24 px-8 pt-24 space-x-20">
+        <div className="bg-red-50 h-56 lg:w-[30%] w-[100%]  lg:ml-0">
           <img src="" alt="" />
         </div>
-        <div className="w-[50%]">
-          <h1 className="pb-3 font-bold">ABOUT ME</h1>
+        <div className="lg:w-[50%] w-[100%] mt-5 lg:mt-0">
+          <h1 className="pb-3 font-bold text-center lg:text-left">ABOUT ME</h1>
           <p className="text-gray-400">
             I'm a full stack Software developer with a strong foundation in both
             frontend and backend technologies. I specilize in building scalable,

@@ -1,12 +1,14 @@
 function Services() {
   const style =
-    "border-4 border-blue-600 h-68 w-[30%] p-4 rounded-lg shadow-lg shadow-blue-600/50";
-  const headingStyle = "font-bold p-4 text-center";
+    "border-4 border-blue-600 lg:h-68 h-76 lg:w-[30%] w-[100%] px-4 rounded-lg shadow-lg shadow-blue-600/50 mt-10";
+  const headingStyle = "font-bold p-4  text-center";
   return (
     <>
-      <section className="h-[120vh] text-white bg-gray-950 px-24">
-        <h1 className="font-bold text-center text-4xl pb-20">SERVICES</h1>
-        <div className="flex w-[100%] items-center justify-evenly">
+      <section className="h-[170vh] lg:h-[140vh] text-white bg-gray-950 lg:px-24 px-8">
+        <h1 className="font-bold text-center text-4xl lg:pb-20 pb-0">
+          SERVICES
+        </h1>
+        <div className="lg:flex w-[100%] items-center lg:justify-evenly justify-between">
           <div className={style}>
             <h1 className={headingStyle}>WEBSITE DEVELOPMENT</h1>
             <p>
@@ -26,7 +28,7 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="flex w-[100%] items-center justify-evenly pt-14">
+        <div className="flex w-[100%] items-center justify-evenly lg:pt-14">
           <div className={style}>
             <h1 className={headingStyle}>PROGRAMMING LANGUAGES</h1>
             <p>
