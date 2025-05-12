@@ -3,14 +3,14 @@ import HamburgerMenu from "./Components/Hamburger";
 function Hero() {
   return (
     <section className="justify-center lg:h-screen h-96 w-[100%] text-white bg-gray-950 lg:px-24 px-8 pt-6">
-      <nav className="flex items-center p-4 ">
+      <nav className="flex items-center p-4 justify-between ">
         <div>
           <h1 className="font-extrabold text-6xl">FR</h1>
         </div>
         <HamburgerMenu />
       </nav>
       <section className="">
-        <p className="pt-15 text-2xl text-gray-500 font-extrabold">I'm a</p>
+        <p className="pt-15 text-2xl text-gray-500 font-extrabold">I'm a~</p>
         <h1 className="lg:text-8xl text-4xl font-extrabold">
           FULL STACK <br /> SOFTWARE <br /> DEVELOPER.
         </h1>
